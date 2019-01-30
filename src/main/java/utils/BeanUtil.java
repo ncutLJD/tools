@@ -13,7 +13,6 @@ import java.util.*;
 
 public class BeanUtil {
 
-
     public static <T> T toBean(Object source, Class<T> targetClass) {
         try {
             if(source==null){
